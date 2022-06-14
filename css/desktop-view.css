@@ -1,0 +1,179 @@
+@media all and (min-width: 700px) {
+  nav {
+    position: fixed;
+    top: 0;
+    right: -20px;
+    left: 0;
+    background: #131517;
+    padding: 0px 5% 0px 5%;
+    overflow: hidden;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+  }
+
+  #nav-links > ul {
+    display: flex;
+
+    flex-direction: row;
+    list-style: none;
+  }
+
+  li > a {
+    position: relative;
+    color: #fbff1c;
+    text-decoration: none;
+    line-height: 20px;
+    margin: 0 20px 0 20px;
+    font-weight: normal;
+    font-size: 30px;
+  }
+
+  #toogle {
+    display: none;
+  }
+
+  .my-mobile-image-container {
+    display: none;
+  }
+
+  .my-image-container {
+    position: relative;
+    transition-property: margin-top;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+  }
+
+  .css-typewriting-container .static-text {
+    font-size: 55px;
+    color: #e1e1e1;
+    font-weight: 700;
+  }
+
+  .css-typewriting-container .dynamic-text {
+    margin-left: 15px;
+    height: 80px;
+    font-size: 55px;
+    font-weight: 700;
+  }
+
+  .dynamic-text li {
+    list-style: none;
+    color: #fbff1c;
+  }
+
+  .dynamic-text li span::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 80px;
+    width: 100%;
+    background: #131517;
+    border-left: 2px solid #fbff1c;
+    animation: typing 2.5s steps(10) infinite;
+}
+
+  .css-typewriting-container-2 .static-text {
+    font-weight: 300;
+    font-size: 30px;
+    color: #e1e1e1;
+  }
+
+  .css-typewriting-container-2 .dynamic-text {
+    margin-left: 10px;
+    height: 40px;
+    font-size: 30px;
+    font-weight: 400px;  
+    overflow: hidden;
+  }
+  
+  .static-text-1 {
+    list-style: none;
+    color: #fbff1c;
+    font-size: 30px;
+  }
+
+  .static-text-1> span {
+    list-style: none;
+    color: #ffffff;
+    font-size: 30px;
+  }
+
+  .dynamic-text-2 li span::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 80px;
+    width: 100%;
+    background: #131517;
+    border-left: 2px solid #fbff1c;
+    animation: typing 2.5s steps(10) infinite;
+}
+
+  .download-cv:hover {
+    background-color: #131517;
+    color: #ffc800 !important;
+    border: 1px solid #ffc800;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .about-me-content > p {
+    font-size: 17px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.7);
+    padding: 20px 150px 0px 100px;
+  }
+
+ .project-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 40px;
+    width: 80%;
+    height: 100%;
+    margin: 30px auto 0 auto;
+  }
+
+  .projects-section > p {
+    color: #ffffff;
+    text-align: center;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 60px;
+  }
+
+
+  .my-image-container:hover {
+    margin-top: -50px;
+    transition: all 0.7s ease-in-out;
+
+  }
+
+  @keyframes typing-2 {
+    100% {
+      left: 100%;
+      margin: 0 -30px 0 30px;
+    }
+  }
+
+  @keyframes slide-2 {
+    100% {
+      top: -135px;
+      margin: 0 0 0 0;
+    }
+  }
+
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+      border-radius: 100%;
+    }
+
+    100% {
+      transform: rotate(360deg);
+      border-radius: 100%;
+    }
+  }
+}
