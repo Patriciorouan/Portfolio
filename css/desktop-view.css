@@ -23,7 +23,7 @@
 
   li > a {
     position: relative;
-    color: #fbff1c;
+    color: #00fcff;
     text-decoration: none;
     line-height: 20px;
     margin: 0 20px 0 20px;
@@ -61,7 +61,7 @@
 
   .dynamic-text li {
     list-style: none;
-    color: #fbff1c;
+    color: #00fcff;
   }
 
   .dynamic-text li span::after {
@@ -71,7 +71,7 @@
     height: 80px;
     width: 100%;
     background: #131517;
-    border-left: 2px solid #fbff1c;
+    border-left: 2px solid #00fcff;
     animation: typing 2.5s steps(10) infinite;
 }
 
@@ -91,7 +91,7 @@
   
   .static-text-1 {
     list-style: none;
-    color: #fbff1c;
+    color: #00fcff;
     font-size: 30px;
   }
 
@@ -108,14 +108,14 @@
     height: 80px;
     width: 100%;
     background: #131517;
-    border-left: 2px solid #fbff1c;
+    border-left: 2px solid #00fcff;
     animation: typing 2.5s steps(10) infinite;
 }
 
   .download-cv:hover {
     background-color: #131517;
-    color: #ffc800 !important;
-    border: 1px solid #ffc800;
+    color: #00fcff !important;
+    border: 1px solid #00fcff;
     transition: all 0.5s ease-in-out;
   }
 

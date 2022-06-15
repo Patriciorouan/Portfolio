@@ -103,7 +103,7 @@
     list-style: none;
     font-size: 30px;
     font-weight: 400;
-    color: #fbff1c;
+    color: #00fcff;
   }
 
   .dynamic-text li span::after {
@@ -113,7 +113,7 @@
     height: 45px;
     width: 100%;
     background: #131517;
-    border-left: 2px solid #fbff1c;
+    border-left: 2px solid #00fcff;
     animation: typing 2.5s steps(10) infinite;
   }
 
@@ -133,7 +133,7 @@
 
   .dynamic-text-2 li {
     list-style: none;
-    color: #fbff1c;
+    color: #00fcff;
     position: relative;
     top: 0;
     animation: slide-2 15s steps(3) infinite;
@@ -147,7 +147,7 @@
     height: fit-content;
     width: 100%;
     background: #131517;
-    border-left: 2px solid #fbff1c;
+    border-left: 2px solid #00fcff;
     animation: typing-2 5s steps(20) infinite;
   }
 

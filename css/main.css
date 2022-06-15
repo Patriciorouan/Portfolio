@@ -43,7 +43,7 @@ html, body {
 }
 
 li > a:hover {
-  color: #fbff1c;
+  color: #00fcff;
   transition: all 1s ease-in-out;
 }
 
@@ -61,7 +61,7 @@ li > a:hover {
 }
 
 .socials-logo > span > a:hover {
-  color: #fbff1c;
+  color: #00fcff;
   transition: all 0.5s ease-in-out;
 }
 
@@ -72,13 +72,13 @@ li > a:hover {
   padding-bottom: 15px;
   margin-right: 40px;
   margin-top: 20%;
-  color: #fbff1c;
+  color: #00fcff;
   border-radius: 10px;
   text-decoration: none;
 }
 
 .hire-me-btn:hover {
-  background-color: #fbff1c;
+  background-color: #00fcff;
   color: #000000;
   transition: all 1.5s ease-in-out;
   border-radius: 10px;
@@ -138,7 +138,7 @@ li > a:hover {
 
 .check-project > a:hover {
   transition: all 0.2s ease-in;
-  color: #fbff1c;
+  color: #00fcff;
 }
 
 .contact-me {
@@ -165,7 +165,7 @@ li > a:hover {
 }
 
 .contact-me > a:hover {
-  color: #fbff1c;
+  color: #00fcff;
   transition: all 0.2s ease-in-out;
 }
 
@@ -182,7 +182,7 @@ li > a:hover {
 }
 
 .contact-me > span > a:hover {
-  color: #fbff1c;
+  color: #00fcff;
   transition: all 0.2s ease-in-out;
 }
 
